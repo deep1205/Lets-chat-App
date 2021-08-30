@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap');
+
+
+.JoinPage{
+    background-image:linear-gradient(to right,cyan,blue);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JoinContainer{
+   
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.JoinContainer > img{
+    width: 10vmax;
+}
+.JoinContainer > h1{
+    color: white;
+    font-size: 2.5vmax;
+    text-align: center;
+    width: 25vmax;
+    border-bottom: 0.2vmax solid white;
+    text-align: center;
+    padding: 1vmax;
+    font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
+}
+
+#joinInput{
+      border-radius: 40px;
+    width: 25vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 2vmax;
+    box-sizing: border-box;
+    text-align: center;
+}
+.joinbtn{
+    width: 20vmax;
+    padding: 1.5vmax;
+    border: none;
+    color: white;
+    border-radius: 50px;
+font-family: "Montserrat";
+    outline: none;
+    font-size: 1.2vmax;
+   background-color: red;
+   box-sizing: border-box;
+   transition: all 0.3s;
+   cursor: pointer;
+}
+.joinbtn:hover{
+    background-color:goldenrod;
+}
